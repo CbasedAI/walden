@@ -361,7 +361,7 @@ hr {
 }
 .site-header-container {
   margin: 0 auto; /* 水平居中 */
-  width: 80%;
+  width: 100%;
   position: fixed;
   right: 0;
   left: 0;
@@ -370,6 +370,7 @@ hr {
   height: 56px;
 }
 .site-header {
+  width: 100%;
   height: 56px;
   padding: 0 16px;
   display: flex;
