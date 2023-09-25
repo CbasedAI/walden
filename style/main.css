@@ -360,7 +360,6 @@ hr {
   margin: 10px 0;
 }
 .site-header-container {
-  max-width: 768px; /* 与 content-container 的宽度一致 */
   margin: 0 auto; /* 水平居中 */
   width: 80%;
   position: fixed;
@@ -376,7 +375,6 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 768px;
   margin: 0 auto;
 }
 .site-header .left {
@@ -459,7 +457,6 @@ a.purple-link {
   background: linear-gradient(180deg, transparent 70%, rgba(101,125,225,0.4) 0);
 }
 .main {
-  max-width: 768px;
   margin: 0 auto;
   display: flex;
   min-height: 100vh;
@@ -467,9 +464,8 @@ a.purple-link {
   align-items: center;
 }
 .content-container {
-  max-width: 768px; /* 保持不变 */
   margin: 0 auto; /* 水平居中 */
-  width: 80%;
+  width: 100%;
   flex: 1;
   padding: 46px 16px 32px;
 }
