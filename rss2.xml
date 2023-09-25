@@ -9,14 +9,68 @@
     <atom:link href="https://walden.wakehuang.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 25 Sep 2023 16:46:53 GMT</pubDate>
+    <pubDate>Mon, 25 Sep 2023 17:43:18 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>🧑‍💻 tailblocks - 开箱即用的 Tailwind CSS 块</title>
+      <link>https://walden.wakehuang.com/2023/09/26/20230926-tailblocks/</link>
+      <guid>https://walden.wakehuang.com/2023/09/26/20230926-tailblocks/</guid>
+      <pubDate>Mon, 25 Sep 2023 17:39:46 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;该项目提供了使用 Tailwind CSS 构建的多个块，您可以在自己的项目中使用它们。该项目不是您添加到项目中的依赖项，而是为你提供可以轻松复制并粘贴到您自己的项目中的</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://walden.wakehuang.com/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://walden.wakehuang.com/tags/GitHub/">GitHub</category>
+      
+      
+      <comments>https://walden.wakehuang.com/2023/09/26/20230926-tailblocks/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>🧑‍💻 Langui - 为 GPT、生成式 AI 和 LLM 项目量身定制的开源 Tailwind UI 组件库</title>
+      <link>https://walden.wakehuang.com/2023/09/26/20230926-langui/</link>
+      <guid>https://walden.wakehuang.com/2023/09/26/20230926-langui/</guid>
+      <pubDate>Mon, 25 Sep 2023 17:26:03 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;使用预构建、易于集成和可重用的 UI</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://walden.wakehuang.com/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://walden.wakehuang.com/tags/GitHub/">GitHub</category>
+      
+      
+      <comments>https://walden.wakehuang.com/2023/09/26/20230926-langui/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>🤖️ My solopreneur story zero to $45K/mo in 2 years - 我的独立开发者故事：两年内从零增长到每月45K美元</title>
-      <link>https://walden.wakehuang.com/2023/09/25/post/</link>
-      <guid>https://walden.wakehuang.com/2023/09/25/post/</guid>
-      <pubDate>Mon, 25 Sep 2023 12:18:46 GMT</pubDate>
+      <link>https://walden.wakehuang.com/2023/09/26/20230926-my-solopreneur-story/</link>
+      <guid>https://walden.wakehuang.com/2023/09/26/20230926-my-solopreneur-story/</guid>
+      <pubDate>Mon, 25 Sep 2023 16:23:03 GMT</pubDate>
       
         
         
@@ -33,7 +87,7 @@
       <category domain="https://walden.wakehuang.com/tags/%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85/">独立开发者</category>
       
       
-      <comments>https://walden.wakehuang.com/2023/09/25/post/#disqus_thread</comments>
+      <comments>https://walden.wakehuang.com/2023/09/26/20230926-my-solopreneur-story/#disqus_thread</comments>
       
     </item>
     

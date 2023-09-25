@@ -6,7 +6,7 @@
   <link href="https://walden.wakehuang.com/atom.xml" rel="self"/>
   
   <link href="https://walden.wakehuang.com/"/>
-  <updated>2023-09-25T16:46:53.277Z</updated>
+  <updated>2023-09-25T17:43:18.217Z</updated>
   <id>https://walden.wakehuang.com/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>🧑‍💻 tailblocks - 开箱即用的 Tailwind CSS 块</title>
+    <link href="https://walden.wakehuang.com/2023/09/26/20230926-tailblocks/"/>
+    <id>https://walden.wakehuang.com/2023/09/26/20230926-tailblocks/</id>
+    <published>2023-09-25T17:39:46.000Z</published>
+    <updated>2023-09-25T17:43:18.217Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;该项目提供了使用 Tailwind CSS 构建的多个块，您可以在自己的项目中使用它们。该项目不是您添加到项目中的依赖项，而是为你提供可以轻松复制并粘贴到您自己的项目中的</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://walden.wakehuang.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="GitHub" scheme="https://walden.wakehuang.com/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>🧑‍💻 Langui - 为 GPT、生成式 AI 和 LLM 项目量身定制的开源 Tailwind UI 组件库</title>
+    <link href="https://walden.wakehuang.com/2023/09/26/20230926-langui/"/>
+    <id>https://walden.wakehuang.com/2023/09/26/20230926-langui/</id>
+    <published>2023-09-25T17:26:03.000Z</published>
+    <updated>2023-09-25T17:43:08.417Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;使用预构建、易于集成和可重用的 UI</summary>
+        
+      
+    
+    
+    
+    
+    <category term="前端" scheme="https://walden.wakehuang.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="GitHub" scheme="https://walden.wakehuang.com/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
     <title>🤖️ My solopreneur story zero to $45K/mo in 2 years - 我的独立开发者故事：两年内从零增长到每月45K美元</title>
-    <link href="https://walden.wakehuang.com/2023/09/25/post/"/>
-    <id>https://walden.wakehuang.com/2023/09/25/post/</id>
-    <published>2023-09-25T12:18:46.631Z</published>
-    <updated>2023-09-25T16:46:53.277Z</updated>
+    <link href="https://walden.wakehuang.com/2023/09/26/20230926-my-solopreneur-story/"/>
+    <id>https://walden.wakehuang.com/2023/09/26/20230926-my-solopreneur-story/</id>
+    <published>2023-09-25T16:23:03.000Z</published>
+    <updated>2023-09-25T17:26:47.995Z</updated>
     
     
       
