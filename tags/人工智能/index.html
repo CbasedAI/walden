@@ -109,34 +109,86 @@
 
 <footer>
   <div class="site-footer">
-    <!-- ... [其他不变的部分] ... -->
-  </footer>
-  
-  <!-- ... [其他不变的部分] ... -->
-
-  <script>
-      function calculateUptime() {
-        // 设置东八区的2023年9月25日零点的时间
-        const startDate = new Date('2023-09-24T16:00:00Z'); // 这是UTC的时间，对应东八区的2023年9月25日零点
-        
-        const now = new Date();
-        const diff = now - startDate;
-
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-        
-        return `${days}天 ${hours}时 ${minutes}分 ${seconds}秒`;
-      }
-
-      document.getElementById('uptime').textContent = `平稳运行了${calculateUptime()}`;
+    <div class="social-container">
       
-      // 如果你想让时间动态更新，可以使用以下代码：
-      setInterval(function() {
-        document.getElementById('uptime').textContent = `平稳运行了${calculateUptime()}`;
-      }, 1000); // 每秒更新一次
-  </script>
+        
+          <a aria-label="跳转至github" href="https://github.com/wakehuang" target="_blank">
+            <i class="icon icon-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    
+    <!-- 添加统计文章总数和站点上线时间 -->
+    <div class="stats-container">
+      <p>本站总共更新5篇文章外链和摘要，<span id="uptime">计算中...</span></p>
+    </div>
+  
+    
+      Powered By 瓦尔登湖 & GPT
+    
+    
+    
+    
+    
+    
+  </div>
+  <style>
+    .stats-container {
+      padding: 10px 0;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .stats-container p {
+      margin: 5px 0;
+    }
+  </style>
+</footer>
+  
+</div>
+</div>
+
+<script id="hexo-configurations"> window.theme_config = {"image":{"lazyload_enable":true,"photo_zoom":"simple-lightbox"}}; window.is_post = false; </script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+<script>
+    function calculateUptime() {
+      // 设置东八区的2023年9月25日零点的时间
+      const startDate = new Date('2023-09-24T16:00:00Z'); // 这是UTC的时间，对应东八区的2023年9月25日零点
+
+      const now = new Date();
+      const diff = now - startDate;
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      return `${days}天 ${hours}时 ${minutes}分 ${seconds}秒`;
+    }
+
+    document.getElementById('uptime').textContent = `平稳运行了${calculateUptime()}`;
+
+    // 如果你想让时间动态更新，可以使用以下代码：
+    setInterval(function() {
+      document.getElementById('uptime').textContent = `平稳运行了${calculateUptime()}`;
+    }, 1000); // 每秒更新一次
+</script>
 
 </body>
 </html>
