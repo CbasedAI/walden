@@ -5,14 +5,14 @@
 
 <meta charset="utf-8" >
 
-<title>🏅️ How To Be Successful - OpenAI创始人 Sam Altman 分享实现卓越成功的13个想法</title>
-<meta name="keywords" content="🏅️ How To Be Successful - OpenAI创始人 Sam Altman 分享实现卓越成功的13个想法, 瓦尔登湖">
+<title>🏅️ How To Be Successful - OpenAI 创始人 Sam Altman 分享实现卓越成功的13个想法</title>
+<meta name="keywords" content="🏅️ How To Be Successful - OpenAI 创始人 Sam Altman 分享实现卓越成功的13个想法, 瓦尔登湖">
 <meta name="description" content="【AI摘要】Sam Altman 在本文中分享了包括复利增长，超强自信等13个实现卓越成功的想法，同时也表示机会不均是一个巨大的问题。
 ">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="🏅️ How To Be Successful - OpenAI创始人 Sam Altman 分享实现卓越成功的13个想法">
+<meta property="og:title" content="🏅️ How To Be Successful - OpenAI 创始人 Sam Altman 分享实现卓越成功的13个想法">
 <meta property="og:description" content="【AI摘要】Sam Altman 在本文中分享了包括复利增长，超强自信等13个实现卓越成功的想法，同时也表示机会不均是一个巨大的问题。
 ">
 
@@ -61,7 +61,7 @@
   <div class="content-container">
     <div class="post-detail">
       
-      <h2 class="post-title">🏅️ How To Be Successful - OpenAI创始人 Sam Altman 分享实现卓越成功的13个想法</h2>
+      <h2 class="post-title">🏅️ How To Be Successful - OpenAI 创始人 Sam Altman 分享实现卓越成功的13个想法</h2>
       <div class="post-info post-detail-info">
         <span><i class="icon icon-calendar-outline"></i> 2023-09-25 20:02:23 +08:00</span>
         
@@ -70,6 +70,13 @@
             
               <a href="/tags/%E5%BF%83%E7%81%B5%E6%88%90%E9%95%BF/">
               心灵成长
+                
+                  ，
+                
+              </a>
+            
+              <a href="/tags/OpenAI/">
+              OpenAI
                 
               </a>
             
@@ -110,47 +117,35 @@
 
 
 <footer>
-<div class="site-footer">
-  <div class="social-container">
-    
+  <div class="site-footer">
+    <!-- ... [其他不变的部分] ... -->
+  </footer>
+  
+  <!-- ... [其他不变的部分] ... -->
+
+  <script>
+      function calculateUptime() {
+        // 设置东八区的2023年9月25日零点的时间
+        const startDate = new Date('2023-09-24T16:00:00Z'); // 这是UTC的时间，对应东八区的2023年9月25日零点
+        
+        const now = new Date();
+        const diff = now - startDate;
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        
+        return `${days}天 ${hours}时 ${minutes}分 ${seconds}秒`;
+      }
+
+      document.getElementById('uptime').textContent = `平稳运行了${calculateUptime()}`;
       
-        <a aria-label="跳转至github" href="https://github.com/wakehuang" target="_blank">
-          <i class="icon icon-github"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  
-    Powered by 瓦尔登湖 & GPT</a>
-  
-  
-  
-  
-  
-  
-</div>
-</footer>
+      // 如果你想让时间动态更新，可以使用以下代码：
+      setInterval(function() {
+        document.getElementById('uptime').textContent = `平稳运行了${calculateUptime()}`;
+      }, 1000); // 每秒更新一次
+  </script>
 
-
-      </div>
-    </div>
-    
-<script id="hexo-configurations"> window.theme_config = {"image":{"lazyload_enable":true,"photo_zoom":"simple-lightbox"}}; window.is_post = true; </script>
-
-<script src="/js/main.js"></script>
-
-
-
-
-
-
-  </body>
+</body>
 </html>

@@ -72,14 +72,32 @@
   
   <section class="post-item">
       <div class="content">
-        <a href="/2023/09/25/post/">
-          <h2 class="post-title">Generative Image Dynamics →</h2>
+        <a target="_blank" rel="noopener" href="https://generative-dynamics.github.io/">
+          <h2 class="post-title">🤖️ Generative Image Dynamics - 生成动态图像，实现用户鼠标触发真实自然的物体交互 →</h2>
         </a>
         <div class="post-abstract">
           
         </div>
         <div class="post-info">
             <span><i class="icon icon-calendar-outline"></i> 2023-09-25 20:18:46 UTC+8</span>
+            
+                <span>
+                    <i class="icon icon-pricetags-outline"></i>
+                    
+                        <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD">人工智能</a>
+                        
+                            ，
+                        
+                    
+                        <a href="/tags/arXiv">arXiv</a>
+                        
+                            ，
+                        
+                    
+                        <a href="/tags/%E8%AE%BA%E6%96%87">论文</a>
+                        
+                    
+                </span>
             
         </div>
       </div>
@@ -90,7 +108,7 @@
   <section class="post-item">
       <div class="content">
         <a target="_blank" rel="noopener" href="https://blog.samaltman.com/how-to-be-successful">
-          <h2 class="post-title">🏅️ How To Be Successful - OpenAI创始人 Sam Altman 分享实现卓越成功的13个想法 →</h2>
+          <h2 class="post-title">🏅️ How To Be Successful - OpenAI 创始人 Sam Altman 分享实现卓越成功的13个想法 →</h2>
         </a>
         <div class="post-abstract">
           
@@ -105,6 +123,11 @@
                     <i class="icon icon-pricetags-outline"></i>
                     
                         <a href="/tags/%E5%BF%83%E7%81%B5%E6%88%90%E9%95%BF">心灵成长</a>
+                        
+                            ，
+                        
+                    
+                        <a href="/tags/OpenAI">OpenAI</a>
                         
                     
                 </span>
@@ -190,6 +213,11 @@
                     
                         <a href="/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1">架构设计</a>
                         
+                            ，
+                        
+                    
+                        <a href="/tags/%E5%89%8D%E7%AB%AF">前端</a>
+                        
                     
                 </span>
             
@@ -203,47 +231,35 @@
 </div>
 
 <footer>
-<div class="site-footer">
-  <div class="social-container">
-    
+  <div class="site-footer">
+    <!-- ... [其他不变的部分] ... -->
+  </footer>
+  
+  <!-- ... [其他不变的部分] ... -->
+
+  <script>
+      function calculateUptime() {
+        // 设置东八区的2023年9月25日零点的时间
+        const startDate = new Date('2023-09-24T16:00:00Z'); // 这是UTC的时间，对应东八区的2023年9月25日零点
+        
+        const now = new Date();
+        const diff = now - startDate;
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+        
+        return `${days}天 ${hours}时 ${minutes}分 ${seconds}秒`;
+      }
+
+      document.getElementById('uptime').textContent = `平稳运行了${calculateUptime()}`;
       
-        <a aria-label="跳转至github" href="https://github.com/wakehuang" target="_blank">
-          <i class="icon icon-github"></i>
-        </a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  
-    Powered by 瓦尔登湖 & GPT</a>
-  
-  
-  
-  
-  
-  
-</div>
-</footer>
+      // 如果你想让时间动态更新，可以使用以下代码：
+      setInterval(function() {
+        document.getElementById('uptime').textContent = `平稳运行了${calculateUptime()}`;
+      }, 1000); // 每秒更新一次
+  </script>
 
-
-      </div>
-    </div>
-    
-<script id="hexo-configurations"> window.theme_config = {"image":{"lazyload_enable":true,"photo_zoom":"simple-lightbox"}}; window.is_post = false; </script>
-
-<script src="/js/main.js"></script>
-
-
-
-
-
-
-  </body>
+</body>
 </html>
